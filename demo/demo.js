@@ -1,5 +1,5 @@
 import * as Eta from "https://deno.land/x/eta@v1.12.1/mod.ts"
-import MyEtaPlugin from "./plugin.js"
+import MyEtaPlugin from "../plugin.js"
 
 // RUN
 // deno run --unstable --allow-read demo.js
