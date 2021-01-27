@@ -1,0 +1,9 @@
+<% // Async component
+
+const delay = (ms) => new Promise((res) => setTimeout(res, ms));
+await delay(it.delay)
+
+%>
+
+## Async
+Delay <%= it.delay %>ms

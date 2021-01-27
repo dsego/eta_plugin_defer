@@ -1,0 +1,4 @@
+# Test Page
+<%~ deferFile('async.eta', { delay: 50 }) %>
+<%~ deferFile('async.eta', { delay: 100 }) %>
+<%~ deferFile('async2.eta') %>
